@@ -7,14 +7,14 @@ Në këtë javë kemi ndërtuar strukturën bazë të aplikacionit RideShare duk
 
 ## 2. Provat e Ekzekutimit
 
-* **Prova 1 (Tri Kartat & Mobile View):**
-  Në faqen kryesore `/` shfaqen saktësisht 3 karta udhëtimesh. Faqja u testua në ekran telefoni (375px) dhe teksti është i lexueshëm pa lëvizje horizontale.
+### Prova 1
+Në faqen kryesore `/` shfaqen saktësisht 3 karta udhëtimesh. Faqja u testua në ekran telefoni (375px) dhe teksti është i lexueshëm pa lëvizje horizontale.
 
-* **Prova 2 (Navigimi, Zero Vende & ID 99):**
-  Klikimi te karta e dytë dërgon te `/udhetimi/2` me detajet e Fushë Kosovës. Karta e tretë (Lipjan) ka 0 vende dhe butoni shfaqet i çaktivizuar ("Nuk ka vende të lira"). Qasja te `/udhetimi/99` shfaq faqe 404 me mesazhin "Udhëtimi nuk u gjet" dhe mundësi kthimi te lista.
+### Prova 2
+Klikimi te karta e dytë dërgon te `/udhetimi/2` me detajet e Fushë Kosovës. Karta e tretë (Lipjan) ka 0 vende dhe butoni shfaqet i çaktivizuar ("Nuk ka vende të lira"). Qasja te `/udhetimi/99` shfaq faqe 404 me mesazhin "Udhëtimi nuk u gjet" dhe mundësi kthimi te lista.
 
-* **Prova 3 (Simulimi i Kërkesës):**
-  Klikimi te "Kërko vend" te udhëtimi 2 dërgon te `/udhetimi/2/kerkesa` ku shfaqet titulli "Simulim: Në pritje" me butonin për t'u kthyer mbrapsht te detajet.
+### Prova 3
+Klikimi te "Kërko vend" te udhëtimi 2 dërgon te `/udhetimi/2/kerkesa` ku shfaqet titulli "Simulim: Në pritje" me buronin për t'u kthyer mbrapsht te detajet.
 
 ---
 
